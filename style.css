@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(imagenes/inicio.jpeg);
+  font-family: "Playwrite HR", cursive;
+  font-size: 18px;
+  text-align: center;
+}
+
+.marca {
+  border-radius: 15px 15px 0 0;
+  background-color: solid rgb(201, 181, 127);
+  color: black;
+}
+
+.titulo__marca {
+  font-size: 20px;
+  font-family: "Caveat", cursive;
+  background-color: rgb(236, 212, 142);
+  
+}
+
+.titulo {
+  color: brown;
+  font-size: 35px;
+  margin: 10px 0;
+}
+
+.presentacion {
+  border-radius: 15px;
+  border: 1.5px solid rgb(201, 181, 127);
+  background-color: white;
+  margin: 30px auto;
+  height: 450px;
+  width: 50%
+}
+
+.container {
+  padding: 50px 10px 0;
+}
+
+.input {
+  border-radius: 5px;
+  border: 1.5px solid rgb(201, 181, 127);
+  padding: 5px 20px;
+  margin: 10px 0;
+  width: 70%;
+}
+
+input {
+  font-family: "Caveat", cursive;
+  font-size: 18px
+}
+
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.boton {
+  border-radius: 10px;
+  border: 1.5px solid rgb(201, 181, 127);
+  font-weight: 800;
+  display: block;
+  padding: 5px 10px;
+  margin: 10px auto;
+  width: 40%
+}
+
+.botonVolver {
+  background-color: rgb(201, 181, 127);
+  color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-weight: 800;
+  display: block;
+  padding: 5px 10px;
+  margin: 10px auto;
+  width: 40%
+}
+
+.boton:hover,
+.botonTrivias:hover
+.botonSiguiente:hover {
+  background-color: beige;
+  color: black;
+  border: 1px solid white
+}
+
+.puntos {
+  font-size:16px;
+  margin: 10px 0;
+}
+
+.puntajeTitulo {
+  color:  brown;
+  font-size: 25px
+}
+
+.puntaje {
+  color: #050000;
+  font-size: 40px;
+}

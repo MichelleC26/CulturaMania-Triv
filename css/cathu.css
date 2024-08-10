@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(../imagenes/trivhu.jpeg);
+  background-size: 100% 125%;
+  font-family: "Playwrite HR", cursive;
+  font-size: 18px;
+  text-align: center;
+}
+
+.marca {
+  border-radius: 15px 15px 0 0;
+  background-color: solid rgb(201, 181, 127);
+  color: black;
+}
+
+.titulo__marca {
+  font-size: 20px;
+  font-family: "Caveat", cursive;
+  background-color: rgb(236, 212, 142);
+  border-radius: 15px 15px 0 0;
+}
+
+.titulo {
+  color: brown;
+  font-size: 35px;
+  margin: 10px 0;
+}
+
+.presentacion {
+  border-radius: 15px;
+  border: 1.5px solid rgb(201, 181, 127);
+  background-color: white;
+  margin: 30px auto;
+  height: 450px;
+  width: 50%
+}
+
+.container {
+  padding: 50px 10px 0;
+}
+
+.input {
+  border-radius: 5px;
+  border: 1.5px solid rgb(201, 181, 127);
+  padding: 5px 20px;
+  margin: 10px 0;
+  width: 70%;
+}
+
+input {
+  font-family: "Caveat", cursive;
+  font-size: 18px
+}
+
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.boton {
+  border-radius: 10px;
+  border: 1.5px solid rgb(201, 181, 127);
+  font-weight: 800;
+  display: block;
+  padding: 5px 10px;
+  margin: 10px auto;
+  width: 40%
+}
+
+.botonVolver {
+  background-color: #a38d5c;
+  color: black;
+  border: 1px solid  rgb(201, 181, 127);
+  border-radius: 10px;
+  font-weight: 800;
+  display: block;
+  padding: 5px 10px;
+  margin: 10px auto;
+  width: 40%
+}
+
+.botonTrivias {
+  font-family: "Caveat", cursive;
+  font-size: 110%;
+  border-radius: 10px;
+  border: 2px rgb(201, 181, 127);
+  padding: 5px;
+  margin: 10px auto;
+  width: 90%
+}
+
+.pregunta {
+  display:block;
+  font-weight: 600;
+}
+
+.botonSiguiente {
+  border-radius: 10px;
+  border: 1px  rgb(201, 181, 127);
+  background-color: beige;
+  font-family: "Caveat", cursive ;
+  font-size: 18px;
+  padding: 0.25% 0.50%;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 45%;
+}
+
+.cronometro {
+  border-radius: 10px;
+  border: 1px solid brown;
+  min-height: 30px;
+  margin: 0 auto;
+  width: 150px;
+};
